@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #131111;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.posterContainer {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.posterSubContainer {
+  width: 80%;
+  height: 80%;
+  background-color: blanchedalmond;
+  border: 3px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #1a1818, #161414);
+  -webkit-box-shadow: 35px 35px 70px #0c0b0b, -35px -35px 70px #242121;
+          box-shadow: 35px 35px 70px #0c0b0b, -35px -35px 70px #242121;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.netflixLogo {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  max-width: 3rem;
+}
+
+.posterDialogue {
+  position: absolute;
+  bottom: 15%;
+  right: 14%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.dmain {
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.quotes {
+  margin: 4px;
+  font-size: 2.3rem;
+  opacity: .4;
+}
+
+.bc {
+  opacity: .1;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+}
+
+.bc2 {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  border-radius: 10px;
+  height: 42rem;
+}
+
+.posterDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 5rem;
+  right: 40%;
+  opacity: .9;
+}
+
+.posterDetails h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.genre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.genre p {
+  margin: .5rem;
+  border: 1px white solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: 900;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.genre p:hover {
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.releaseInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.releaseInfo a {
+  margin: 1rem;
+}
+
+.info {
+  background-color: white;
+  padding: 7px 12px;
+  color: black;
+  border-radius: 5px;
+}
+
+.info:hover {
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+.watchNow {
+  background-color: red;
+  padding: 7px 12px;
+  border-radius: 5px;
+  color: white;
+}
+
+.watchNow:hover {
+  background-color: rgba(255, 0, 0, 0.856);
+}
+
+.playButton {
+  position: relative;
+  top: 1.5px;
+  margin: 0 5px;
+  max-width: 1rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.playButton:hover {
+  max-width: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */
